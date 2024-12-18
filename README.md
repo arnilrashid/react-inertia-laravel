@@ -6,10 +6,17 @@ Welcome to **React-Inertia-Laravel**, a project aimed at creating robust single-
 
 ## Features
 
+<<<<<<< HEAD
 -   **Single Page Application**: A seamless user experience with React and Inertia.js.
 -   **Laravel Backend**: Powerful and efficient backend powered by Laravel 11.
 -   **React Frontend**: Interactive and dynamic user interface built with React.
 -   **MySQL Database**: Reliable data storage using MySQL.
+=======
+- **Single Page Application**: A seamless user experience with React and Inertia.js.
+- **Laravel Backend**: Powerful and efficient backend powered by Laravel 11.
+- **React Frontend**: Interactive and dynamic user interface built with React.
+- **MySQL Database**: Reliable data storage using MySQL.
+>>>>>>> e12715c3be6aaa79d069c87ca107f976aa4ac170
 
 ## Tech Stack
 
@@ -27,14 +34,21 @@ Follow these steps to set up and run the project on your local machine:
 
 Make sure you have the following installed:
 
+<<<<<<< HEAD
 -   Node.js
 -   Composer
 -   MySQL
+=======
+- Node.js
+- Composer
+- MySQL
+>>>>>>> e12715c3be6aaa79d069c87ca107f976aa4ac170
 
 ### Installation
 
 1. Clone the repository:
 
+<<<<<<< HEAD
     ```bash
     git clone https://github.com/arnilrashid/React-Inertia_Laravel.git
     cd React-Inertia_Laravel
@@ -77,6 +91,50 @@ Make sure you have the following installed:
     ```bash
     php artisan serve
     ```
+=======
+   ```bash
+   git clone https://github.com/arnilrashid/React-Inertia_Laravel.git
+   cd React-Inertia_Laravel
+   ```
+
+2. Install PHP dependencies:
+
+   ```bash
+   composer install
+   ```
+
+3. Install Node.js dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Set up the environment variables:
+
+   - Copy `.env.example` to `.env`:
+     ```bash
+     cp .env.example .env
+     ```
+   - Update the `.env` file with your database credentials.
+
+5. Run the migrations:
+
+   ```bash
+   php artisan migrate
+   ```
+
+6. Build frontend assets:
+
+   ```bash
+   npm run dev
+   ```
+
+7. Start the development server:
+
+   ```bash
+   php artisan serve
+   ```
+>>>>>>> e12715c3be6aaa79d069c87ca107f976aa4ac170
 
 Visit `http://localhost:8000` to access the application.
 
@@ -94,9 +152,19 @@ Contributions are welcome! Please follow these steps:
 
 **Md. Mamun Ar Rashid**
 
+<<<<<<< HEAD
 -   **LinkedIn**: [md-mamunarrashid-bauet](https://www.linkedin.com/in/md-mamunarrashid-bauet/)
 -   **GitHub**: [arnilrashid](https://github.com/arnilrashid)
 
 ---
 
 Feel free to fork, star, and share your feedback about this project. Let's build awesome things together!
+=======
+- **LinkedIn**: [md-mamunarrashid-bauet](https://www.linkedin.com/in/md-mamunarrashid-bauet/)
+- **GitHub**: [arnilrashid](https://github.com/arnilrashid)
+
+---
+
+Feel free to fork, star, and share your feedback about this project. Let's build awesome things together!
+
+>>>>>>> e12715c3be6aaa79d069c87ca107f976aa4ac170
