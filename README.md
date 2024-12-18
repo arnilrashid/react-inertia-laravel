@@ -1,6 +1,8 @@
-# react-inertia-laravel
+# React-Inertia-Laravel
 
 Welcome to **React-Inertia-Laravel**, a project aimed at creating robust single-page applications (SPAs) using **Laravel 11**, **React**, and **Inertia.js**. This repository showcases an awesome project management website that integrates the best practices of modern web development.
+
+---
 
 ## Features
 
@@ -11,10 +13,11 @@ Welcome to **React-Inertia-Laravel**, a project aimed at creating robust single-
 
 ## Tech Stack
 
-- **Frontend**: React
-- **Backend**: Laravel 11
-- **Routing**: Inertia.js
-- **Database**: MySQL
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat-square)
+![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white&style=flat-square)
+![Inertia.js](https://img.shields.io/badge/-Inertia.js-FF2D20?logo=inertia&logoColor=white&style=flat-square)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square)
 
 ## Getting Started
 
@@ -31,22 +34,26 @@ Make sure you have the following installed:
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/arnilrashid/React-Inertia_Laravel.git
    cd React-Inertia_Laravel
    ```
 
 2. Install PHP dependencies:
+
    ```bash
    composer install
    ```
 
 3. Install Node.js dependencies:
+
    ```bash
    npm install
    ```
 
 4. Set up the environment variables:
+
    - Copy `.env.example` to `.env`:
      ```bash
      cp .env.example .env
@@ -54,16 +61,19 @@ Make sure you have the following installed:
    - Update the `.env` file with your database credentials.
 
 5. Run the migrations:
+
    ```bash
    php artisan migrate
    ```
 
 6. Build frontend assets:
+
    ```bash
    npm run dev
    ```
 
 7. Start the development server:
+
    ```bash
    php artisan serve
    ```
@@ -82,8 +92,7 @@ Contributions are welcome! Please follow these steps:
 
 ## Author
 
-**Md. Mamun Ar Rashid**  
-*Full Stack Developer*  
+**Md. Mamun Ar Rashid**
 
 - **LinkedIn**: [md-mamunarrashid-bauet](https://www.linkedin.com/in/md-mamunarrashid-bauet/)
 - **GitHub**: [arnilrashid](https://github.com/arnilrashid)
