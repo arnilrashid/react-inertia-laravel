@@ -6,25 +6,20 @@ Welcome to **React-Inertia-Laravel**, a project aimed at creating robust single-
 
 ## Features
 
-<<<<<<< HEAD
--   **Single Page Application**: A seamless user experience with React and Inertia.js.
--   **Laravel Backend**: Powerful and efficient backend powered by Laravel 11.
--   **React Frontend**: Interactive and dynamic user interface built with React.
--   **MySQL Database**: Reliable data storage using MySQL.
-=======
 - **Single Page Application**: A seamless user experience with React and Inertia.js.
 - **Laravel Backend**: Powerful and efficient backend powered by Laravel 11.
 - **React Frontend**: Interactive and dynamic user interface built with React.
 - **MySQL Database**: Reliable data storage using MySQL.
->>>>>>> e12715c3be6aaa79d069c87ca107f976aa4ac170
 
 ## Tech Stack
 
-![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat-square)
-![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white&style=flat-square)
-![Inertia.js](https://img.shields.io/badge/-Inertia.js-FF2D20?logo=inertia&logoColor=white&style=flat-square)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=flat-square)
-![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square)
+![React](https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?logo=laravel&logoColor=white&style=for-the-badge)
+![Inertia.js](https://img.shields.io/badge/-Inertia.js-FF2D20?logo=inertia&logoColor=white&style=for-the-badge)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)
+![Git](https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=for-the-badge)
+
+---
 
 ## Getting Started
 
@@ -32,84 +27,34 @@ Follow these steps to set up and run the project on your local machine:
 
 ### Prerequisites
 
-Make sure you have the following installed:
+Ensure you have the following installed:
 
-<<<<<<< HEAD
--   Node.js
--   Composer
--   MySQL
-=======
-- Node.js
-- Composer
-- MySQL
->>>>>>> e12715c3be6aaa79d069c87ca107f976aa4ac170
+- [Node.js](https://nodejs.org/)
+- [Composer](https://getcomposer.org/)
+- [MySQL](https://www.mysql.com/)
 
 ### Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
 
-<<<<<<< HEAD
-    ```bash
-    git clone https://github.com/arnilrashid/React-Inertia_Laravel.git
-    cd React-Inertia_Laravel
-    ```
-
-2. Install PHP dependencies:
-
-    ```bash
-    composer install
-    ```
-
-3. Install Node.js dependencies:
-
-    ```bash
-    npm install
-    ```
-
-4. Set up the environment variables:
-
-    - Copy `.env.example` to `.env`:
-        ```bash
-        cp .env.example .env
-        ```
-    - Update the `.env` file with your database credentials.
-
-5. Run the migrations:
-
-    ```bash
-    php artisan migrate
-    ```
-
-6. Build frontend assets:
-
-    ```bash
-    npm run dev
-    ```
-
-7. Start the development server:
-
-    ```bash
-    php artisan serve
-    ```
-=======
    ```bash
    git clone https://github.com/arnilrashid/React-Inertia_Laravel.git
    cd React-Inertia_Laravel
    ```
 
-2. Install PHP dependencies:
+2. **Install PHP dependencies**:
 
    ```bash
    composer install
    ```
 
-3. Install Node.js dependencies:
+3. **Install Node.js dependencies**:
 
    ```bash
    npm install
    ```
 
-4. Set up the environment variables:
+4. **Set up environment variables**:
 
    - Copy `.env.example` to `.env`:
      ```bash
@@ -117,30 +62,31 @@ Make sure you have the following installed:
      ```
    - Update the `.env` file with your database credentials.
 
-5. Run the migrations:
+5. **Run the migrations**:
 
    ```bash
    php artisan migrate
    ```
 
-6. Build frontend assets:
+6. **Build frontend assets**:
 
    ```bash
    npm run dev
    ```
 
-7. Start the development server:
+7. **Start the development server**:
 
    ```bash
    php artisan serve
    ```
->>>>>>> e12715c3be6aaa79d069c87ca107f976aa4ac170
 
-Visit `http://localhost:8000` to access the application.
+Visit [`http://localhost:8000`](http://localhost:8000) to access the application.
+
+---
 
 ## Contributing
 
-Contributions are welcome! Please follow these steps:
+Contributions are welcome! To contribute:
 
 1. Fork the repository.
 2. Create a feature branch.
@@ -148,23 +94,16 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch.
 5. Open a Pull Request.
 
+---
+
 ## Author
 
 **Md. Mamun Ar Rashid**
 
-<<<<<<< HEAD
--   **LinkedIn**: [md-mamunarrashid-bauet](https://www.linkedin.com/in/md-mamunarrashid-bauet/)
--   **GitHub**: [arnilrashid](https://github.com/arnilrashid)
-
----
-
-Feel free to fork, star, and share your feedback about this project. Let's build awesome things together!
-=======
 - **LinkedIn**: [md-mamunarrashid-bauet](https://www.linkedin.com/in/md-mamunarrashid-bauet/)
 - **GitHub**: [arnilrashid](https://github.com/arnilrashid)
 
 ---
 
-Feel free to fork, star, and share your feedback about this project. Let's build awesome things together!
+Feel free to fork, star, and share your feedback about this project. Together, let's build something amazing! 🚀
 
->>>>>>> e12715c3be6aaa79d069c87ca107f976aa4ac170
